@@ -1,0 +1,132 @@
+"${OUTPUT_PATH}" -input ./data/ECommerce162.dataset -events  10000 -K 5 -display Framed -type cart
+
+Reading from ./data/ECommerce162.dataset
+Number of events with non null session in index: 162
+After filtering sessions (Type == cart): 51 sessions
+There are 11 unique brands in the filtered sessions
+Adjacency Matrix 
+11 11
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0 2 0 0 0 0 0 0 0 0 0 
+2 0 0 0 0 0 0 0 0 0 0 
+0 0 0 12 3 1 2 2 1 1 0 
+0 0 12 0 36 12 24 24 12 12 0 
+0 0 3 36 0 3 6 6 3 3 0 
+0 0 1 12 3 0 2 2 1 1 0 
+0 0 2 24 6 2 0 4 2 2 0 
+0 0 2 24 6 2 4 0 2 2 0 
+0 0 1 12 3 1 2 2 0 1 0 
+0 0 1 12 3 1 2 2 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+
+After teletranspotation 
+11 11
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0136364 0.863636 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 
+0.863636 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 0.0136364 
+0.0136364 0.0136364 0.0136364 0.477273 0.129545 0.0522727 0.0909091 0.0909091 0.0522727 0.0522727 0.0136364 
+0.0136364 0.0136364 0.0909091 0.0136364 0.245455 0.0909091 0.168182 0.168182 0.0909091 0.0909091 0.0136364 
+0.0136364 0.0136364 0.0561364 0.523636 0.0136364 0.0561364 0.0986364 0.0986364 0.0561364 0.0561364 0.0136364 
+0.0136364 0.0136364 0.0522727 0.477273 0.129545 0.0136364 0.0909091 0.0909091 0.0522727 0.0522727 0.0136364 
+0.0136364 0.0136364 0.0541126 0.499351 0.135065 0.0541126 0.0136364 0.0945887 0.0541126 0.0541126 0.0136364 
+0.0136364 0.0136364 0.0541126 0.499351 0.135065 0.0541126 0.0945887 0.0136364 0.0541126 0.0541126 0.0136364 
+0.0136364 0.0136364 0.0522727 0.477273 0.129545 0.0522727 0.0909091 0.0909091 0.0136364 0.0522727 0.0136364 
+0.0136364 0.0136364 0.0522727 0.477273 0.129545 0.0522727 0.0909091 0.0909091 0.0522727 0.0136364 0.0136364 
+0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 
+
+PageRank at iteration 0
+1 11
+pr 
+bpw.style cosmoprofi domix estel freedecor haruyama ingarden irisk italwax roubloff runail 
+0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 0.0909091 
+
+PageRank at iteration 1
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0979339 0.0979339 0.0494461 0.323932 0.105962 0.0494461 0.0778965 0.0778965 0.0494461 0.0494461 0.0206612 
+
+PageRank at iteration 2
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0984767 0.0984767 0.0568045 0.236645 0.132169 0.0568045 0.0958911 0.0958911 0.0568045 0.0568045 0.0152329 
+
+PageRank at iteration 3
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985187 0.0985187 0.0530636 0.280717 0.119296 0.0530636 0.0879405 0.0879405 0.0530636 0.0530636 0.0148135 
+
+PageRank at iteration 4
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985219 0.0985219 0.0548125 0.259459 0.125816 0.0548125 0.0918253 0.0918253 0.0548125 0.0548125 0.014781 
+
+PageRank at iteration 5
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985221 0.0985221 0.0539615 0.269798 0.122639 0.0539615 0.0899466 0.0899466 0.0539615 0.0539615 0.0147785 
+
+PageRank at iteration 6
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0543746 0.264775 0.124185 0.0543746 0.0908592 0.0908592 0.0543746 0.0543746 0.0147783 
+
+PageRank at iteration 7
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0541739 0.267216 0.123434 0.0541739 0.0904158 0.0904158 0.0541739 0.0541739 0.0147783 
+
+PageRank at iteration 8
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0542714 0.26603 0.123799 0.0542714 0.0906313 0.0906313 0.0542714 0.0542714 0.0147783 
+
+PageRank at iteration 9
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.054224 0.266606 0.123622 0.054224 0.0905266 0.0905266 0.054224 0.054224 0.0147783 
+
+PageRank at iteration 10
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0542471 0.266326 0.123708 0.0542471 0.0905775 0.0905775 0.0542471 0.0542471 0.0147783 
+
+PageRank at iteration 11
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0542359 0.266462 0.123666 0.0542359 0.0905528 0.0905528 0.0542359 0.0542359 0.0147783 
+
+PageRank at iteration 12
+1 11
+pr 
+italwax estel roubloff bpw.style freedecor domix ingarden irisk cosmoprofi runail haruyama 
+0.0985222 0.0985222 0.0542413 0.266396 0.123686 0.0542413 0.0905648 0.0905648 0.0542413 0.0542413 0.0147783 
+
+Convergence reached in 13 iterations (stability last value = 6.42734e-05)
+
+First 10 stability values
+     0.524     0.185     0.088     0.043     0.021     0.010     0.005     0.002     0.001     0.001     0.880
+
+      it 0      it 1      it 2      it 3      it 4      it 5      it 6      it 7      it 8      it 9
+
+
+┌──────────┬──────────┬──────────┬──────────┬──────────┐
+│    0.0985│    0.0985│    0.0906│    0.2664│    0.1237│    0.6777
+├──────────┼──────────┼──────────┼──────────┼──────────┤
+│   italwax│     estel│  ingarden│ bpw.style│ freedecor│
+└──────────┴──────────┴──────────┴──────────┴──────────┘
+
+
+[recommendations(Top recommendations)] 5 italwax( 0.10) estel( 0.10) ingarden( 0.09) bpw.style( 0.27) freedecor( 0.12)

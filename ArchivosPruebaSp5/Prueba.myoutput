@@ -1,0 +1,183 @@
+"${OUTPUT_PATH}" -input ./data/Prueba.dataset -events  2000 -K 5 -display Framed -type purchase
+
+Number of events with non null session in index: 20
+After filtering sessions (type == purchase): 11 sessions
+idxSesion.size 11
+There are 5 unique brands in the filtered sessions
+Adjacency Matrix 
+5 5
+A B C D E 
+A B C D E 
+0   2   0   0   0   
+2   0   1   2   0   
+0   1   0   1   0   
+0   2   1   0   0   
+0   0   0   0   0   
+
+After Teletransportation 5 5
+A B C D E 
+A B C D E 
+0.03   0.88   0.03   0.03   0.03   
+0.37   0.03   0.2   0.37   0.03   
+0.03   0.455   0.03   0.455   0.03   
+0.03   0.596667   0.313333   0.03   0.03   
+0.2   0.2   0.2   0.2   0.2   
+
+PageRank at iteration 0
+1 5
+
+
+0.2   0.2   0.2   0.2   0.2   
+
+PageRank at iteration 1
+1 5
+A B C D E 
+A B C D E 
+0.132   0.432333   0.154667   0.217   0.064   
+
+PageRank at iteration 2
+1 5
+A B C D E 
+A B C D E 
+0.187873   0.34178   0.17586   0.253607   0.04088   
+
+PageRank at iteration 3
+1 5
+A B C D E 
+A B C D E 
+0.153155   0.415093   0.166907   0.227895   0.0369496   
+
+PageRank at iteration 4
+1 5
+A B C D E 
+A B C D E 
+0.177413   0.366539   0.171418   0.248349   0.0362814   
+
+PageRank at iteration 5
+1 5
+A B C D E 
+A B C D E 
+0.160791   0.400552   0.168845   0.233644   0.0361678   
+
+PageRank at iteration 6
+1 5
+A B C D E 
+A B C D E 
+0.172336   0.376978   0.170441   0.244095   0.0361485   
+
+PageRank at iteration 7
+1 5
+A B C D E 
+A B C D E 
+0.164318   0.393389   0.169392   0.236755   0.0361453   
+
+PageRank at iteration 8
+1 5
+A B C D E 
+A B C D E 
+0.169897   0.381968   0.170102   0.241889   0.0361447   
+
+PageRank at iteration 9
+1 5
+A B C D E 
+A B C D E 
+0.166014   0.389921   0.169614   0.238307   0.0361446   
+
+PageRank at iteration 10
+1 5
+A B C D E 
+A B C D E 
+0.168718   0.384383   0.169951   0.240804   0.0361446   
+
+PageRank at iteration 11
+1 5
+A B C D E 
+A B C D E 
+0.166835   0.388239   0.169717   0.239064   0.0361446   
+
+PageRank at iteration 12
+1 5
+A B C D E 
+A B C D E 
+0.168146   0.385554   0.16988   0.240276   0.0361446   
+
+PageRank at iteration 13
+1 5
+A B C D E 
+A B C D E 
+0.167233   0.387424   0.169767   0.239432   0.0361446   
+
+PageRank at iteration 14
+1 5
+A B C D E 
+A B C D E 
+0.167869   0.386121   0.169846   0.24002   0.0361446   
+
+PageRank at iteration 15
+1 5
+A B C D E 
+A B C D E 
+0.167426   0.387029   0.169791   0.23961   0.0361446   
+
+PageRank at iteration 16
+1 5
+A B C D E 
+A B C D E 
+0.167734   0.386397   0.169829   0.239895   0.0361446   
+
+PageRank at iteration 17
+1 5
+A B C D E 
+A B C D E 
+0.167519   0.386837   0.169802   0.239697   0.0361446   
+
+PageRank at iteration 18
+1 5
+A B C D E 
+A B C D E 
+0.167669   0.38653   0.169821   0.239835   0.0361446   
+
+PageRank at iteration 19
+1 5
+A B C D E 
+A B C D E 
+0.167565   0.386744   0.169808   0.239739   0.0361446   
+
+PageRank at iteration 20
+1 5
+A B C D E 
+A B C D E 
+0.167637   0.386595   0.169817   0.239806   0.0361446   
+
+PageRank at iteration 21
+1 5
+A B C D E 
+A B C D E 
+0.167587   0.386699   0.169811   0.239759   0.0361446   
+
+PageRank at iteration 22
+1 5
+A B C D E 
+A B C D E 
+0.167622   0.386627   0.169815   0.239792   0.0361446   
+
+PageRank at iteration 23
+1 5
+A B C D E 
+A B C D E 
+0.167598   0.386677   0.169812   0.239769   0.0361446   
+
+Convergence reached in23 iterations(stability last value = 6.99089e-05)
+
+First 10 stability values
+
+   0.499   0.227   0.147   0.098   0.068   0.047   0.033   0.023   0.016   0.011   1.169
+
+   it 0   it 1   it 2   it 3   it 4   it 5   it 6   it 7   it 8   it 9
+
+┌──────────┬──────────┬──────────┬──────────┬──────────┐
+│    0.1676│    0.3866│    0.1698│    0.2398│    0.0361│    1.0000
+├──────────┼──────────┼──────────┼──────────┼──────────┤
+│         A│         B│         C│         D│         E│
+└──────────┴──────────┴──────────┴──────────┴──────────┘
+
